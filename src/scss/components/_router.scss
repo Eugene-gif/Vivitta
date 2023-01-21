@@ -1,0 +1,20 @@
+._content._show {
+  font-size: 1.1rem;
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+  height: auto;
+}
+
+._content {
+  font-size: 0;
+  visibility: hidden;
+  transform:  scale(0);
+  opacity: 0;
+  transition: transform .3s;
+  height: 0;
+}
+
+._btn {
+  cursor: pointer;
+}

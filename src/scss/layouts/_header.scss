@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+
+  &-container {
+    background-color: var(--light);
+    width: 100%;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  &__nav {
+    display: flex;
+    max-width: 300px;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    &__btn {
+      padding: 15px 0;
+      border: none;
+      background-color: transparent;
+      font-size: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: lightblue;
+      }
+    }
+  }
+}

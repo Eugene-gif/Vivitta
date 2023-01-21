@@ -1,0 +1,20 @@
+/* __________ Components __________ */
+@import "components/_global";
+@import "components/_vars";
+@import "components/_router";
+/* __________ /Components __________ */
+
+
+/*__________ Layouts __________*/
+@import "layouts/_header.scss";
+@import "layouts/_baseLayout.scss";
+@import "layouts/_footer.scss";
+
+/*__________ /Layouts __________*/
+
+
+/*__________ Page __________*/
+@import "pages/_home.scss";
+@import "pages/_counter.scss";
+@import "pages/_components.scss";
+/*__________ /Page __________*/
