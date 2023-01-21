@@ -22,9 +22,9 @@
 
 // setupCounter(document.querySelector('#counter'))
 
-import { setupCounter } from "./src/js/counter";
+// import { setupCounter } from "./src/js/counter";
 import { setupRouter } from "./src/js/router";
 
 
-setupCounter(document.querySelector('#counter'));
+// setupCounter(document.querySelector('#counter'));
 setupRouter();
