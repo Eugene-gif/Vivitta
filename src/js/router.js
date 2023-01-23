@@ -9,7 +9,12 @@ export function setupRouter() {
           let data = event.target.dataset.btn;
           contents.forEach((content) => {
             if (content.dataset.content === data) {
-              document.querySelector("._show").classList.remove("_show");
+              document.querySelectorAll("._show").forEach((el) => {
+                el.classList.remove("_show");
+              });
+              document.querySelectorAll("._close").forEach((el) => {
+                el.classList.remove("_close");
+              });
               content.classList.add("_show");
               window.scrollTo(0, 0);
             }

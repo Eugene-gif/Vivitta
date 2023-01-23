@@ -2,14 +2,20 @@
   <div class="container">
     <div class="header">
       <div class="header__title">Logo</div>
-      <nav class="header__nav nav">
+      <nav class="header__nav">
         <button class="nav__btn _btn" data-btn="home">Главная</button>
         <button class="nav__btn _btn" data-btn="products">Товары</button>
         <button class="nav__btn _btn" data-btn="contacts">Контакты</button>
         <button class="nav__btn _btn" data-btn="about">О нас</button>
+        <button class="nav__btn _full" onclick="openFullscreen()">
+          <img src="src/img/max-size.svg" alt="max">
+        </button>
+        <button class="nav__btn _out" onclick="closeFullscreen()">
+          <img src="src/img/min-size.svg" alt="min">
+        </button>
       </nav>
       <div class="header__overlay"></div>
-      <div class="burger-btn header__btn">
+      <div class="header__btn">
         <div>
           <span></span>
         </div>
@@ -17,3 +23,38 @@
     </div>
   </div>
 </div>
+<script>
+  let elem = document.documentElement;
+
+/* Просмотр в полноэкранном режиме */
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) {
+    /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) {
+    /* Chrome, Safari and Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) {
+    /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+
+/* Закрыть полный экран */
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.mozCancelFullScreen) {
+    /* Firefox */
+    document.mozCancelFullScreen();
+  } else if (document.webkitExitFullscreen) {
+    /* Chrome, Safari and Opera */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) {
+    /* IE/Edge */
+    document.msExitFullscreen();
+  }
+}
+</script>
