@@ -3,8 +3,8 @@ export function setupResize() {
     elem: document.documentElement,
     btn: document.querySelector("._resize"),
     icon: {
-      min: "src/img/min-size.svg",
-      max: "src/img/max-size.svg",
+      min: "min-size.svg",
+      max: "max-size.svg",
     },
     action: () => {
       resize.btn.addEventListener("click", () => {
