@@ -2,4 +2,13 @@
   margin-top: 70px;
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.title-slogan {
+  margin-bottom: 30px;
+  span {
+    color: red;
+  }
 }
