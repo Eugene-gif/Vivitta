@@ -1,0 +1,10 @@
+.footer {
+  text-align: center;
+  &-container {
+    box-shadow: 0 0 5px 0;
+    width: 100%;
+    background: var(--dark);
+    color: var(--light);
+    padding: 10px 0;
+  }
+}

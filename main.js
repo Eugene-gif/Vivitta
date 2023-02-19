@@ -23,9 +23,9 @@
 // setupCounter(document.querySelector('#counter'))
 
 // import { setupCounter } from "./src/js/counter";
-import { setupRouter } from "./src/js/router";
-import { setupMenu } from "./src/js/menu";
-import { setupResize } from "./src/js/resize";
+import { setupRouter } from "./src/modules/functional/Router/router";
+import { setupMenu } from "./src/modules/functional/Menu/menu";
+import { setupResize } from "./src/modules/functional/Resize/resize";
 
 setupRouter();
 setupMenu();
