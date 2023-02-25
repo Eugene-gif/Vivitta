@@ -1,7 +1,12 @@
+/* __________ Modules __________ */
+@import "../modules/functional/Theme/_theme.scss";
+@import "../modules/functional/Router/_router.scss";
+/* __________ /Modules __________ */
+
+
 /* __________ Components __________ */
 @import "components/_global";
 @import "components/_vars";
-@import "../modules/functional/Router/_router.scss";
 /* __________ /Components __________ */
 
 

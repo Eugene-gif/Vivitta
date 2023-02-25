@@ -26,7 +26,9 @@
 import { setupRouter } from "./src/modules/functional/Router/router";
 import { setupMenu } from "./src/modules/functional/Menu/menu";
 import { setupResize } from "./src/modules/functional/Resize/resize";
+import { setupTheme } from "./src/modules/functional/Theme/theme";
 
 setupRouter();
 setupMenu();
 setupResize();
+setupTheme();

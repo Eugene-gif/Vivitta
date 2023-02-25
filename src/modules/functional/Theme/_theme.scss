@@ -1,0 +1,10 @@
+.dark-theme {
+  .base-layout {
+    background-color: var(--dark);
+    color: var(--light2);
+  }
+}
+
+.base-layout {
+  transition: all .4s;
+}
