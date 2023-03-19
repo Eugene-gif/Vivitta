@@ -27,8 +27,11 @@ import { setupRouter } from "./src/modules/functional/Router/router";
 import { setupMenu } from "./src/modules/functional/Menu/menu";
 import { setupResize } from "./src/modules/functional/Resize/resize";
 import { setupTheme } from "./src/modules/functional/Theme/theme";
+import { setupGetProducts } from "./src/modules/pages/Products/getProducts";
+
 
 setupRouter();
 setupMenu();
 setupResize();
 setupTheme();
+setupGetProducts();
