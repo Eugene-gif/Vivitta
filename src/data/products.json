@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Товар №1",
+    "description": "Какое-то краткое описание товара №1",
+    "price": "2500",
+    "img": "panty_1"
+  },
+  {
+    "name": "Товар №2",
+    "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores delectus pariatur dignissimos consequuntur harum doloribus inventore fugiat soluta nemo sapiente. Temporibus, voluptatem. Molestias hic nesciunt debitis velit incidunt sit quasi.",
+    "price": "1800",
+    "img": "panty_2"
+  },
+  {
+    "name": "Товар №3",
+    "description": "Какое-то описание товара, Какое-то описание товара, Какое-то описание товара, Какое-то описание товара, Какое-то описание товара, Какое-то описание товара, Какое-то описание товара, Какое-то описание товара",
+    "price": "1500",
+    "img": "panty_3"
+  },
+  {
+    "name": "Товар №4",
+    "description": "Какое-то описание товара, Какое-то описание товара, Какое-то описание товара, Какое-то описание товара,",
+    "price": "3000",
+    "img": "panty_1"
+  },
+  {
+    "name": "Товар №5",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus minus blanditiis tempore assumenda soluta beatae neque facilis qui consequuntur deleniti perferendis, quis dolores, laudantium nisi, officia aut veritatis est sunt.",
+    "price": "1000",
+    "img": "panty_2"
+  }
+]
