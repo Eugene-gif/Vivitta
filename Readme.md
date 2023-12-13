@@ -2,6 +2,6 @@
 
 Описание:
 
-npm i 
-npm run dev
+npm i <br>
+npm run dev <br>
 npm run build
